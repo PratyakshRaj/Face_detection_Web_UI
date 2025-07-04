@@ -2,7 +2,7 @@ fastapi
 uvicorn
 insightface
 numpy
-opencv-python
+opencv-python-headless
 python-multipart
 gradio
 onnxruntime
