@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from insightface.app import FaceAnalysis
 
-face_app = FaceAnalysis(name='buffalo_l')
+face_app = FaceAnalysis(name='buffalo_s')
 face_app.prepare(ctx_id=0)
 
 def extract_embedding(image_bytes):
